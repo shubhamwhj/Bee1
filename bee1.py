@@ -19,6 +19,9 @@ bee= pygame.Rect(100,250,30,30)
 
 groundx=0
 
+#Add code to define speed and g variables
+
+#Add code to create gravity() function
 
 while True:    
     screen.fill((50,150,255))
@@ -28,6 +31,7 @@ while True:
             pygame.quit()
             sys.exit()
 
+    #Add code to call the gravity function
     
     groundx =groundx-5
     
